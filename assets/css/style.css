@@ -1,49 +1,65 @@
 body{
     background-image: url(../images/concrete-texture.png);
     margin: auto;
+    width:960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
     color: #777777;
     
 }
-a{
+header div a{
     text-decoration: none;
     color: #777777;
     
 }
 header{
+    position: relative;
     width:100%;
-    background: #ffffff;
+    height: auto;
+    background-color: #ffffff;
     border-style:solid;
-    border-width: 0 0 3px 0;
+    border-width: 0px 0px 4px 0px;
     border-color: #cccccc;
-    width: 100%;
+
 }
 
-h1{
-    float: left;
+header h1{
+    display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;
 }
-ul{
-}
-ul li{
-    list-style: none;
-    padding:0 5px;
-
-}
-div{
-    background: #ffffff;
+.topnav{
+    position: absolute;
+    right: 0;
+    top: 0%;
 }
 
+div.container{
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    margin: 15px 0px;
+    padding: 0px 10px 10px 10px;
+}
+
+
+img {
+    float: left;
+    height: 170px;
+    width: 170px;
+    padding: 0 10px 0 0;
+
+}
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#4aaaa5;
-}
-
-img{
-    position: relative;
-    width: auto;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #dddddd;
+    padding: 0 0 15px 0;
 }
