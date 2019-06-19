@@ -6,8 +6,13 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     </head>
+
+    <!--top of the body has a wrapper used to make the whole height 100% for the sticky footer-->
     <body>
         <div class="wrapper">
+            <!--here I'm using a header container to bring in the full size of the window to 960 px. the header width will go to the full width of the window
+            The h1 tag has it's own class to allow it to be inline and remove the margins to take up the specified height and width
+            the ul for top nav is contained to allow for the individual entries to have padding. in the css the link attributes are specified-->
                 <header>
                         <div class="header_container">
                             <h1 class="heading_teal_back">Bryan Villalon</h1>
@@ -21,9 +26,13 @@
                         </div>
                 </header>
 
+            <!--entire content is contained to make a reference to place items. the h2 tag has its own class to allow for control the rest is just about me-->
             <div class="container">
                 <h2 class="heading_teal_text">Portfolio</h2>
                 
+                <!--each portfolio entry is floating to automatically fill in bellow in the content area hence each one having it's own container.
+                also created the container to create a position relative for the text. in order you'll see the about me, game from prework, and my ee experience at HPE as well as a placeholder to indicate more to come
+            -->
                 <div class="float_container">
                     <a href="index.html">
                         <img src="assets/images/BryanV_picture.jpg.jpg" class="portfolio_img" alt="Picture or Bryan">
@@ -52,9 +61,10 @@
                         <div class="portfolio_text">More to Come!</div>
                 </div>
             </div>
+            <!--push up for sticky footer-->
             <div class="push"> </div>
         </div>
-
+<!--footer to stay at bottom of content or window whichever is last-->
         <footer>
             <div class="stick_foot">
                 Copyright &copy;
